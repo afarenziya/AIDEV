@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="hi">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta name="description" content="एआई-संचालित डिजिटल मार्केटिंग और वेब डेवलपमेंट सर्विसेज़ जो अत्याधुनिक तकनीक और नवीनतम रणनीतियों के साथ आपके व्यवसाय को नई ऊंचाइयों पर ले जाएंगी।" />
+    <meta name="keywords" content="AI, artificial intelligence, digital marketing, web development, SEO, SEM, content marketing, social media marketing, web design, UI/UX, Google Ads, Facebook Ads" />
+    <meta name="author" content="Afar Enziya" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#3b82f6" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-TileColor" content="#3b82f6" />
+    <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png" />
+    <meta name="google-site-verification" content="fafa1fa3fd6b7ab8" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/icons/apple-icon-180x180.png" />
+    <meta property="og:title" content="AIDEV | AI-Driven Digital Marketing & Web Development" />
+    <meta property="og:description" content="एआई-संचालित डिजिटल मार्केटिंग और वेब डेवलपमेंट सर्विसेज़ जो अत्याधुनिक तकनीक और नवीनतम रणनीतियों के साथ आपके व्यवसाय को नई ऊंचाइयों पर ले जाएंगी।" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourwebsite.com" />
+    <meta property="og:image" content="https://yourwebsite.com/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AIDEV | AI-Driven Digital Marketing & Web Development" />
+    <meta name="twitter:description" content="एआई-संचालित डिजिटल मार्केटिंग और वेब डेवलपमेंट सर्विसेज़" />
+    <meta name="twitter:image" content="https://yourwebsite.com/twitter-image.jpg" />
+    <link rel="canonical" href="https://yourwebsite.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>AIDEV | एआई-संचालित डिजिटल मार्केटिंग और वेब विकास सेवाएं</title>
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "AIDEV",
+      "image": "https://yourwebsite.com/logo.png",
+      "url": "https://yourwebsite.com",
+      "telephone": "+919315869313",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "85 SD-II, Greater Noida West",
+        "addressLocality": "Gautam Buddha Nagar",
+        "addressRegion": "UP",
+        "postalCode": "201306",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "28.59",
+        "longitude": "77.33"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/yourusername",
+        "https://www.twitter.com/yourusername",
+        "https://www.linkedin.com/in/yourusername",
+        "https://www.instagram.com/yourusername"
+      ],
+      "priceRange": "₹₹₹",
+      "description": "एआई-संचालित डिजिटल मार्केटिंग और वेब डेवलपमेंट सर्विसेज़ जो अत्याधुनिक तकनीक और नवीनतम रणनीतियों के साथ आपके व्यवसाय को नई ऊंचाइयों पर ले जाएंगी।",
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://yourwebsite.com/contact",
+          "inLanguage": "hi",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "Contact Form Submission"
+        }
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Register Service Worker
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js')
+            .then(registration => {
+              console.log('Service Worker registered successfully:', registration.scope);
+            })
+            .catch(error => {
+              console.log('Service Worker registration failed:', error);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>

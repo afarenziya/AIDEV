@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Disallow certain directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /includes/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+# Allow search engines to access the sitemap
+Sitemap: https://yourwebsite.com/sitemap.xml
